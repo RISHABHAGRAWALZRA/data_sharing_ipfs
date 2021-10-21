@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 import './drop-file-input.css';
 
 import uploadImg from '../assets/upload.svg';
-import { decrypt, fileToData, encrypt, handleFiles } from '../handleFiles';
-import { asyncForEach } from '../utils'
+import { decrypt, fileToData, encrypt, handleFiles } from '../utility/handleFiles';
+import { asyncForEach } from '../utility/utils'
 
 
 const DropFileInput = ({ IPFS, onfileAdded, nodeId }) => {

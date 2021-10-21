@@ -7,8 +7,8 @@ import * as IPFS from 'ipfs-core'
 import JSZip from "jszip";
 import { concat } from 'uint8arrays/concat';
 
-import { decrypt } from './handleFiles';
-import { b64toBlob } from './utils';
+import { decrypt } from './utility/handleFiles';
+import { b64toBlob } from './utility/utils';
 const all = require('it-all')
 const toBuffer = require('it-to-buffer')
 
